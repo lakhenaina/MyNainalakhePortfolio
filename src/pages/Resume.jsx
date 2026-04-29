@@ -78,7 +78,7 @@ export default function Resume({ active }) {
       </section>
 
       <div className="resume-download-wrapper">
-        <a href="/assets/resume/NainaLakhe-Resume.pdf" download className="download-cv-btn">
+        <a href="/assets/resume/Nainalakhe_resume.pdf" download className="download-cv-btn">
           <ion-icon name="document-outline"></ion-icon>
           Download CV
         </a>
