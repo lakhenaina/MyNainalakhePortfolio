@@ -8,7 +8,7 @@ export default function Sidebar() {
       <div className="sidebar-info">
         <figure className="avatar-box">
           <a
-            href="/assets/images/owner.jpg"
+            href="/assets/images/owner.jpeg"
             target="_blank"
             rel="noopener noreferrer"
           >
