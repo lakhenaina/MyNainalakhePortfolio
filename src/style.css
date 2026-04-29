@@ -507,14 +507,19 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  margin-bottom: 25px;
 }
 
-.about-text p { margin-bottom: 15px;
-font-size: var(--fs-6);
+.about-text p { 
+  margin-bottom: 12px;
+  font-size: var(--fs-7);
 }
 
 .about-text h4 {
-    color: #ffdb70;
+  color: #ffdb70;
+  font-size: var(--fs-6);
+  margin-top: 15px;
+  line-height: 1.5;
 }
 
 
@@ -523,20 +528,20 @@ font-size: var(--fs-6);
  * #service 
  */
 
-.service { margin-bottom: 35px; }
+.service { margin-bottom: 30px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { margin-bottom: 18px; }
 
 .service-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 15px;
 }
 
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
-  padding: 20px;
+  padding: 16px 14px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
@@ -551,19 +556,30 @@ font-size: var(--fs-6);
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box { 
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img { 
+  margin: auto;
+  width: 36px;
+  height: 36px;
+}
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { 
+  margin-bottom: 6px;
+  font-size: var(--fs-7);
+}
 
 .service-item-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-3);
-  line-height: 1.6;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-400);
+  line-height: 1.5;
 }
 
 
@@ -1323,6 +1339,22 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (min-width: 450px) {
+
+  /**
+   * #ABOUT - service
+   */
+
+  .service-list { gap: 18px; }
+
+  .service-item { padding: 18px 16px; }
+
+  .service-icon-box img { width: 40px; height: 40px; }
+
+  .service-item-title { font-size: var(--fs-6); }
+
+  .service-item-text { font-size: var(--fs-7); }
+
+  .about-text p { font-size: var(--fs-6); }
 
   /**
    * client
